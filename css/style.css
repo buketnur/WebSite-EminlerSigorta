@@ -207,6 +207,11 @@ font-size: small;
     color: #fff;
     border-color: rgb(255, 89, 61,1);
 }
+.carousel{
+    display: block;
+    width: 90%;
+    margin:0 auto;
+}
 .sub-footer-alt li a{
     display: block;
     color: #5a6872;
@@ -330,3 +335,136 @@ color:rgb(39, 29, 103);;
     font-weight: 300;
     font-family:"Helvetica Neue",Helvetica,Arial,bold,sans-serif;
 }
+#anlasmalisirketler{
+    margin-top:6rem;
+}
+@media (max-width: 480px) {
+    .bg-blue-es{
+        height: 1.5rem !important;
+        width:1.5rem !important;
+        font-size: 1rem !important;
+    }
+    .text-small{
+        font-size: small;
+        }
+        .text-medium{
+            font-size: medium;
+            }
+        .text-large{
+            font-size: large;
+        }
+        .text-xlarge{
+                font-size:1.2rem;
+                }
+        .text-xxlarge{
+            font-size: 2rem;
+        }
+        .text-default-bold{
+            color:rgb(39, 29, 103);
+            font-weight: 300;
+            font-family:"Helvetica Neue",Helvetica,Arial,bold,sans-serif;
+            }
+    .display-4 {
+      font-size: 2rem !important;
+    }
+
+    #insurance-mainnav-img {
+      height: 20rem !important;
+      margin-top: 2rem !important;
+    }
+
+    .insuran-div{
+        margin-top:1rem!important;
+    }
+    /* .insuran-div a{
+       display: flex;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+    } */
+    .btn-large-buttons{
+        padding:2rem !important;
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+    .btn-large{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:start;
+        align-items: center;
+        height: 4.5rem;
+        background: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: .5rem;
+        box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,.15);
+        -webkit-transition: all ease .333s;
+        -moz-transition: all ease .333s;
+        -o-transition: all ease .333s;
+        -transition: all ease .333s;
+        transition: all ease .333s;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #353b3f;
+    
+    
+    }
+    
+    .btn-large>i{
+        color:rgb(0, 85, 165);
+        font-size:1.5rem;
+    
+    }
+    
+    .btn-large-w{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:start!important;
+        align-items:center;
+        height: 4.5rem;
+        width:100%!important;
+        background: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: .5rem;
+        box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,.15);
+        -webkit-transition: all ease .333s;
+        -moz-transition: all ease .333s;
+        -o-transition: all ease .333s;
+        -transition: all ease .333s;
+        transition: all ease .333s;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #353b3f;
+    }
+    
+    .btn-large-w>i{
+        color:rgb(0, 85, 165);
+        font-size:1.5rem;
+    
+    }
+    .insurance-img{
+        width:2.5rem; 
+        filter: brightness(100%);
+        padding: 0.2rem;
+        margin-right:1rem ;
+        
+      }
+.btn-large .btn-large-w>span{
+    padding-left: 1rem;
+}
+.carousel{
+    width: 100%!important;
+}
+.sub-footer-alt ul{
+    padding: .5rem;
+}
+.sub-footer-alt ul li{
+    font-size: .75rem;
+}
+
+#anlasmalisirketler{
+   margin-top: 0;
+}
+  }
