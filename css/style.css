@@ -322,6 +322,7 @@ color:rgb(39, 29, 103);;
     padding: 1rem;
 }
 
+
 .navbar-phone{
     text-decoration: none;
     color:rgb(39, 29, 103);
@@ -339,6 +340,52 @@ color:rgb(39, 29, 103);;
     margin-top:6rem;
 }
 @media (max-width: 480px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav .dropdown-menu {
+        margin-left: 0 !important;
+    } 
+
+    .nav-buttons {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .nav-buttons a {
+        flex-shrink: 0;
+    }
+    
+    .dropdown-menu{
+        border:0;
+    }
+
+    .form-inline .input-group {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    .form-inline .input-group input {
+        width: calc(100% - 36px);
+        margin-right: 8px;
+    }
+
+    .form-inline .input-group button {
+        flex-shrink: 0;
+    }
+
+    #navbarSupportedContent{
+        background-color: white;
+        padding: 1rem;
+    }
     .bg-blue-es{
         height: 1.5rem !important;
         width:1.5rem !important;
