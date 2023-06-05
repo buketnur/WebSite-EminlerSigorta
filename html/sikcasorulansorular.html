@@ -69,16 +69,16 @@
 <!-- ------------------------------------------------------------------------------------------------------------------- -->  
 <!-- NAVBAR START -->
 <div id="navbar"  class ="header bg-white border-bottom fixed-top" style="height:5rem;">
-  <div class=" " style="margin-left:5%; margin-right:5%; width:90%;">
-      <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="../html/anasayfa.html">
+  <div class="mx-0 px-0 mt-1">
+      <nav id="nav-navbar" class="navbar navbar-expand-lg navbar-light" style="padding:0">
+          <a class="navbar-brand ml-5" href="../html/anasayfa.html">
               <img src="../product/IMG/logo-eminler.png" width="" height="" alt="Eminler Sigorta &nbsp;| 444 1 460" class="fusion-logo-1x fusion-standard-logo" data-logo-height="67" data-logo-width="250" style="height: 55px;"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="bg-white navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-              <a class="navbar-phone disabled border-left-purple ml-2 p-2 text-xlarge" title="Ara: 444 1 460">444 1 460</a>
+              <a class="navbar-phone disabled border-left-purple ml-2 p-2 text-xlarge d-none d-lg-block" title="Ara: 444 1 460">444 1 460</a>
             </li>
           </ul>
         
@@ -92,11 +92,7 @@
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="../html/eminlersigorta.html">Hakkımızda</a>
                     <a class="dropdown-item" href="../html/anlasmalisirketler.html">Anlaşmalı Sigorta Şirketleri</a>
-                  
-
-                    <!-- <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div> -->
+                  </div>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -144,14 +140,19 @@
             </ul>
 
 
-            <form class="form-inline my-1 my-lg-0">
+            <form class="form-inline my-1 my-sm-0">
+              <div class="input-group">
               <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder=" Ara" aria-label="Search">
               <button class="btn btn-light my-2 my-sm-0 bg-light" type="submit" style="border-radius: 50%;">
                   <i class="fa-solid fa-magnifying-glass"></i>
               </button>
+            </div>
             </form>
-            <a class="btn btn-default ml-2" href="../html/kaydol.html" type="submit">Kaydol</a>
-            <a class="btn btn-default ml-2" type="submit" href="../html/giris.html">Giriş Yap</a>
+            <div class="nav-buttons mr-0 mr-lg-5">
+              <a id="kaydol" class="btn btn-default ml-2" href="../html/kaydol.html" type="submit">Kaydol</a>
+              <a id="girisyap" class="btn btn-default ml-2" type="submit" href="../html/giris.html">Giriş Yap</a>
+       </div>
+            
       </nav>
 
   </div>
@@ -178,12 +179,12 @@
 </div>
 
 
-<div class="container mb-3 pt-3 px-0 kasko border-bottom">
-    <div class="row mx-auto d-flex justify-content-between" style="width:100%;">
+<div class="container mt-2 mt-md-5 kasko mb-md-5 mx-0 mx-md-0 w-100 px-2">
+    <div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
         <div class="questions mb-3 mt-4 px-0">
             <h2 class="text-default-bold">Kasko</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -383,12 +384,12 @@
     </div>
 </div>
 
-<div class="container mt-2 mb-3 px-0 pt-3 trafiksigortasi">
-    <div class="row mx-auto d-flex justify-content-between" style="width:100%;">
+<div class="container mt-2 mt-md-5 trafiksigortasi mb-md-5 mx-0 mx-md-0 w-100 px-2">
+    <div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
         <div class="questions mb-3 mt-4">
             <h2 class="text-default-bold">Trafik Sigortası</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample" >
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -536,12 +537,12 @@
     </div>
 </div>
 
-<div class="container mt-2 mb-3 px-0 pt-3 dask">
-    <div class="row mx-auto d-flex justify-content-between" style="width:100%;">
+<div class="container mt-2 mt-md-5 pt-md-3 dask mb-md-5 mx-0 mx-md-0 w-100 px-2">
+    <div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
         <div class="questions mb-3 mt-4">
             <h2 class="text-default-bold">DASK</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -696,12 +697,12 @@
     </div>
 </div>
 
-<div class="container mt-2 mb-3 px-0 pt-3 konutveesya">
-<div class="row mx-auto d-flex justify-content-between" style="width:100%;">
-        <div class="questions mb-3 mt-4">
+<div class="container mt-2 mt-md-5 pt-md-3 konutveesya mb-md-5 mx-0 mx-md-0 w-100 px-2">
+<div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
+        <div class="questions mb-3 mt-4 px-0">
             <h2 class="text-default-bold">Konut ve Eşya</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample" >
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -868,12 +869,12 @@
     </div>
 </div>
 
-<div class="container mt-2 mb-3 px-0 pt-3 tamamlayicisaglik">
-    <div class="row mx-auto d-flex justify-content-between" style="width:100%;">
-        <div class="questions mb-3 mt-4">
+<div class="container mt-2 mt-md-5 pt-md-3 tamamlayicisaglik mb-md-5 mx-0 mx-md-0 w-100 px-2">
+    <div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
+        <div class="questions mb-3 mt-4 px-0">
             <h2 class="text-default-bold">Tamamlayıcı Sağlık</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample" >
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -1048,12 +1049,12 @@
     </div>
 </div>
 
-<div class="container mt-2 mb-3 px-0 pt-3 seyahatsaglik">
-    <div class="row mx-auto d-flex justify-content-between" style="width:100%;">
+<div class="container mt-2 mt-md-5 pt-md-3 seyahatsaglik mb-md-5 mx-0 mx-md-0 w-100 px-2">
+    <div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
         <div class="questions mb-3 mt-4">
             <h2 class="text-default-bold">Seyahat Sağlık Sigortası</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -1164,13 +1165,13 @@
     </div>
 </div>
 
-<div class="container mt-2 px-0 pt-3 seyahatsaglik" style="margin-bottom: 13rem;">
+<div class="container mt-2 mt-md-5 pt-md-3 seyahatsaglik mb-md-5 mx-0 mx-md-0 w-100 px-2" style="margin-bottom: 13rem;">
 
-    <div class="row mx-auto d-flex justify-content-between" style="width:100%;">
+    <div class="row mx-auto d-flex justify-content-between mx-0 mx-md-0 w-100 px-2">
         <div class="questions mb-3 mt-4">
             <h2 class="text-default-bold">Yabancı Sağlık Sigortası</h2>
         </div>
-        <div class="accordion"  id="accordionExample" style="width:100%;" >
+        <div class="accordion w-100 mx-md-0"  id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -1279,65 +1280,54 @@
 
 <!-- QUESTION END --> 
 <!-- ------------------------------------------------------------------------------------------------------------------- -->
-
-
-
-
-
-
-
-
-
 <!-- FOOTER START --> 
 <footer class ="footer bg-white border-bottom border-top " style="margin-bottom: 0;" >
 
-    <nav class="navbar navbar-expand-lg navbar-light d-flex-reverse justify-content-between align-items-end" style="margin-left:5%; margin-right:5%; width:90%;">
-        <div class="row d-flex align-items-center py-1" style="width:25%">
-              <a class="navbar-brand " href="#">
-              <img src="../product/IMG/logo-eminler.png" width="" height="" title="Eminler Sigorta | 444 1 460" alt="Eminler Sigorta &nbsp;| 444 1 460" class="fusion-logo-1x fusion-standard-logo" data-logo-height="67" data-logo-width="250" style="height: 55px;">
-              </a>
-              <div class="footer-adress d-flex flex-column justify-content-center">
-                  <p  class="m-0 p-0">
-                    Şehremini Mh. Deniz Abdal Çeşmesi Sk. <br>
-                    No:10 Kat:3 D.2 Dönmez İş Merkezi <br>Fatih / İSTANBUL<br>
-                  </p>
-            </div>
-        </div>
-        <div class="footer-social-page ">
-  
-  
-                <a class="footer-social-page-icon"  target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Instagram">
-                <img src="../product/SVG/INSTAGRAM.svg" alt="" class="" title="eminlersigorta">
-              </a>
-  
-  
-              <a class="footer-social-page-icon" target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Forrst">
-                <img src="../product/SVG/mail_1.svg" alt="" class="" title="eminlersigorta">
-              </a>
-          </div>
-        <div class="footer-call d-flex-reverse justify-content-end text-sm-right py-1" style="width:25%">
-              <a class="footer-call-icon d-flex flex-row justify-content-end align-items-center text-sm-right py-2" style="color:#46494a; margin:0;" target="_blank" href="#" data-placement="todata-title=" data-toggle="tooltip" title="" data-original-title="Twitter"> 
-                 <p class="footer-call-phone pr-3 m-0" style="font-size: larger;"> 444 1 460</p>
-                <img src="../product/SVG/phone-call.svg" alt="" class="ml-3" style="width: 3rem;" title="eminlersigorta">
-              </a>
-              <p class="m-0 p-0">
-                Sorularınız için çağrı merkezimize ulaşarak destek alabilirsiniz. Eminler Sigorta Müşteri Hizmetleri hafta içi 09:30 - 18:30 arası hizmetinizdedir. Çalışma saatledışında sesli mesaj bırakabilirsiniz.
-              </p>
-        </div>
-    </nav>
-  
-  </footer>
+  <div class="container d-md-flex d-flex flex-column align-items-sm-end flex-md-row justify-content-md-between align-items-md-end">
+    <div class="row mt-3 mt-md-1">
+      <div class="footer-logo col-md-4 col-sm-12 d-flex-column align-items-center justify-content-md-start justify-content-center py-1 col-md-4 col-sm-12">
+        <a class="col-12 d-flex-column justify-content-center justify-content-md-start" href="#">
+        <img src="../product/IMG/logo-eminler.png" width="" height="" alt="Eminler Sigorta &nbsp;| 444 1 460" class="fusion-logo-1x fusion-standard-logo d-flex justify-content-center justify-content-start" data-logo-height="67" data-logo-width="250" style="height: 55px;">
+        </a>
+        <div class="col-12 col-md-12 footer-adress d-md-flex flex-md-column justify-content-md-start d-flex flex-column align-items-center justify-content-center align-items-md-center">
+            <p  class="mt-3 mt-md-1 text-center text-md-left ">
+              Şehremini Mh. Deniz Abdal Çeşmesi Sk. <br>
+              No:10 Kat:3 D.2 Dönmez İş Merkezi <br>Fatih / İSTANBUL<br>
+            </p>
+      </div>
+  </div>
+  <div class="footer-social-page col-md-4 col-12 my-3">
+          <a class="footer-social-page-icon"  target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Instagram">
+          <img src="../product/SVG/INSTAGRAM.svg" alt="" class="">
+        </a>
+
+
+        <a class="footer-social-page-icon" target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Forrst">
+          <img src="../product/SVG/mail_1.svg" alt="" class="">
+        </a>
+    </div>
+  <div class="footer-call d-flex flex-column justify-content-md-end justify-content-center text-sm-center text-md-right col-md-4 col-12" >
+        <a class="footer-call-icon d-flex flex-row justify-content-md-end justify-content-center align-items-center text-md-right text-sm-center py-2" style="color:#46494a;" target="_blank" href="#" data-placement="todata-title=" data-toggle="tooltip" title="" data-original-title="Phone"> 
+           <p class="footer-call-phone pr-3 m-0" style="font-size: larger;"> 444 1 460</p>
+          <img src="../product/SVG/phone-call.svg" alt="" class="ml-3" style="width: 3rem;">
+        </a>
+        <p class=" text-md-right text-center">
+          Sorularınız için çağrı merkezimize ulaşarak destek alabilirsiniz. Eminler Sigorta Müşteri Hizmetleri hafta içi 09:30 - 18:30 arası hizmetinizdedir. Çalışma saatledışında sesli mesaj bırakabilirsiniz.
+        </p>
+  </div>
+
+    </div>
+     
+    </div>
+
+</footer>
   
   
   
   <!-- FOOTER END -->         
   
   
-  
-  
-  
-  
-  
+
       <script src="js/jquery.slim.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
   
@@ -1345,7 +1335,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   
     </body>
-  <../html>
+
 
 
 

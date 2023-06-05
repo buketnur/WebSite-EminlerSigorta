@@ -68,16 +68,16 @@
 <!-- ------------------------------------------------------------------------------------------------------------------- -->  
 <!-- NAVBAR START -->
 <div id="navbar"  class ="header bg-white border-bottom fixed-top" style="height:5rem;">
-  <div class=" " style="margin-left:5%; margin-right:5%; width:90%;">
-      <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="../html/anasayfa.html">
+  <div class="mx-0 px-0 mt-1">
+      <nav id="nav-navbar" class="navbar navbar-expand-lg navbar-light" style="padding:0">
+          <a class="navbar-brand ml-5" href="../html/anasayfa.html">
               <img src="../product/IMG/logo-eminler.png" width="" height="" alt="Eminler Sigorta &nbsp;| 444 1 460" class="fusion-logo-1x fusion-standard-logo" data-logo-height="67" data-logo-width="250" style="height: 55px;"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="bg-white navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-              <a class="navbar-phone disabled border-left-purple ml-2 p-2 text-xlarge" title="Ara: 444 1 460">444 1 460</a>
+              <a class="navbar-phone disabled border-left-purple ml-2 p-2 text-xlarge d-none d-lg-block" title="Ara: 444 1 460">444 1 460</a>
             </li>
           </ul>
         
@@ -91,11 +91,7 @@
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="../html/eminlersigorta.html">Hakkımızda</a>
                     <a class="dropdown-item" href="../html/anlasmalisirketler.html">Anlaşmalı Sigorta Şirketleri</a>
-                  
-
-                    <!-- <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div> -->
+                  </div>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -143,14 +139,19 @@
             </ul>
 
 
-            <form class="form-inline my-1 my-lg-0">
+            <form class="form-inline my-1 my-sm-0">
+              <div class="input-group">
               <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder=" Ara" aria-label="Search">
               <button class="btn btn-light my-2 my-sm-0 bg-light" type="submit" style="border-radius: 50%;">
                   <i class="fa-solid fa-magnifying-glass"></i>
               </button>
+            </div>
             </form>
-            <a class="btn btn-default ml-2" href="../html/kaydol.html" type="submit">Kaydol</a>
-            <a class="btn btn-default ml-2" type="submit" href="../html/giris.html">Giriş Yap</a>
+            <div class="nav-buttons mr-0 mr-lg-5">
+              <a id="kaydol" class="btn btn-default ml-2" href="../html/kaydol.html" type="submit">Kaydol</a>
+              <a id="girisyap" class="btn btn-default ml-2" type="submit" href="../html/giris.html">Giriş Yap</a>
+       </div>
+            
       </nav>
 
   </div>
@@ -174,10 +175,10 @@
 
 </div>
 
-<div class="container mt-5 pt-3">
-    <div class="row d-flex flex-row justify-content-center">
+<div class="container mt-2 mt-md-5 pt-3 px-2">
+    <div class="row d-flex flex-row justify-content-center mx-2 mx-md-0">
  
-        <div class="col-md-5 pr-5">
+        <div class="col-12 col-md-6 pr-md-5">
             <div class="row">
                 <form>
                     <div class="form-row">
@@ -225,7 +226,7 @@
 
         </div>
 
-        <div class="col-md-7">
+        <div class="col-12 col-md-6">
             <div class="row">               
                 <div class="mt-3">
                     <img src="../product/IMG/kasko.jpg" alt="kasko" style="height:15rem; float:left; padding-right: 1rem;"><lead  class="text-default-bold text-xxlarge"> Kasko Sigortası</lead>
@@ -256,44 +257,46 @@
 
 <!-- ------------------------------------------------------------------------------------------------------------------- --> 
 <!-- FOOTER START --> 
-<footer class ="fixed-bottom footer bg-white border-bottom border-top " >
+<footer class ="footer bg-white border-bottom border-top " style="margin-bottom: 0;" >
 
-    <nav class="navbar navbar-expand-lg navbar-light d-flex-reverse justify-content-between align-items-end" style="margin-left:5%; margin-right:5%; width:90%;">
-        <div class="row d-flex align-items-center py-1" style="width:25%">
-              <a class="navbar-brand " href="#">
-              <img src="../product/IMG/logo-eminler.png" width="" height="" alt="Eminler Sigorta &nbsp;| 444 1 460" class="fusion-logo-1x fusion-standard-logo" data-logo-height="67" data-logo-width="250" style="height: 55px;">
-              </a>
-              <div class="footer-adress d-flex flex-column justify-content-center">
-                  <p  class="m-0 p-0">
-                    Şehremini Mh. Deniz Abdal Çeşmesi Sk. <br>
-                    No:10 Kat:3 D.2 Dönmez İş Merkezi <br>Fatih / İSTANBUL<br>
-                  </p>
-            </div>
-        </div>
-        <div class="footer-social-page ">
-  
-  
-                <a class="footer-social-page-icon"  target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Instagram">
-                <img src="../product/SVG/INSTAGRAM.svg" alt="" class="">
-              </a>
-  
-  
-              <a class="footer-social-page-icon" target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Forrst">
-                <img src="../product/SVG/mail_1.svg" alt="" class="">
-              </a>
-          </div>
-        <div class="footer-call d-flex-reverse justify-content-end text-sm-right py-1" style="width:25%">
-              <a class="footer-call-icon d-flex flex-row justify-content-end align-items-center text-sm-right py-2" style="color:#46494a; margin:0;" target="_blank" href="#" data-placement="todata-title=" data-toggle="tooltip" title="" data-original-title="Twitter"> 
-                 <p class="footer-call-phone pr-3 m-0" style="font-size: larger;"> 444 1 460</p>
-                <img src="../product/SVG/phone-call.svg" alt="" class="ml-3" style="width: 3rem;">
-              </a>
-              <p class="m-0 p-0">
-                Sorularınız için çağrı merkezimize ulaşarak destek alabilirsiniz. Eminler Sigorta Müşteri Hizmetleri hafta içi 09:30 - 18:30 arası hizmetinizdedir. Çalışma saatledışında sesli mesaj bırakabilirsiniz.
-              </p>
-        </div>
-    </nav>
-  
-  </footer>
+  <div class="container d-md-flex d-flex flex-column align-items-sm-end flex-md-row justify-content-md-between align-items-md-end">
+    <div class="row mt-3 mt-md-1">
+      <div class="footer-logo col-md-4 col-sm-12 d-flex-column align-items-center justify-content-md-start justify-content-center py-1 col-md-4 col-sm-12">
+        <a class="col-12 d-flex-column justify-content-center justify-content-md-start" href="#">
+        <img src="../product/IMG/logo-eminler.png" width="" height="" alt="Eminler Sigorta &nbsp;| 444 1 460" class="fusion-logo-1x fusion-standard-logo d-flex justify-content-center justify-content-start" data-logo-height="67" data-logo-width="250" style="height: 55px;">
+        </a>
+        <div class="col-12 col-md-12 footer-adress d-md-flex flex-md-column justify-content-md-start d-flex flex-column align-items-center justify-content-center align-items-md-center">
+            <p  class="mt-3 mt-md-1 text-center text-md-left ">
+              Şehremini Mh. Deniz Abdal Çeşmesi Sk. <br>
+              No:10 Kat:3 D.2 Dönmez İş Merkezi <br>Fatih / İSTANBUL<br>
+            </p>
+      </div>
+  </div>
+  <div class="footer-social-page col-md-4 col-12 my-3">
+          <a class="footer-social-page-icon"  target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Instagram">
+          <img src="../product/SVG/INSTAGRAM.svg" alt="" class="">
+        </a>
+
+
+        <a class="footer-social-page-icon" target="_blank" href="#" data-placement="top" data-title="" data-toggle="tooltip" title="" data-original-title="Forrst">
+          <img src="../product/SVG/mail_1.svg" alt="" class="">
+        </a>
+    </div>
+  <div class="footer-call d-flex flex-column justify-content-md-end justify-content-center text-sm-center text-md-right col-md-4 col-12" >
+        <a class="footer-call-icon d-flex flex-row justify-content-md-end justify-content-center align-items-center text-md-right text-sm-center py-2" style="color:#46494a;" target="_blank" href="#" data-placement="todata-title=" data-toggle="tooltip" title="" data-original-title="Phone"> 
+           <p class="footer-call-phone pr-3 m-0" style="font-size: larger;"> 444 1 460</p>
+          <img src="../product/SVG/phone-call.svg" alt="" class="ml-3" style="width: 3rem;">
+        </a>
+        <p class=" text-md-right text-center">
+          Sorularınız için çağrı merkezimize ulaşarak destek alabilirsiniz. Eminler Sigorta Müşteri Hizmetleri hafta içi 09:30 - 18:30 arası hizmetinizdedir. Çalışma saatledışında sesli mesaj bırakabilirsiniz.
+        </p>
+  </div>
+
+    </div>
+     
+    </div>
+
+</footer>
   
 <!-- FOOTER END -->         
 
