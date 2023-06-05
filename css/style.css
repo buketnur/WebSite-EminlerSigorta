@@ -336,9 +336,9 @@ color:rgb(39, 29, 103);;
     font-weight: 300;
     font-family:"Helvetica Neue",Helvetica,Arial,bold,sans-serif;
 }
-#anlasmalisirketler{
+/* #anlasmalisirketler{
     margin-top:6rem;
-}
+} */
 @media (max-width: 480px) {
  
     .navbar-nav {
