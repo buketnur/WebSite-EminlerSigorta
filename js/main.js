@@ -1,55 +1,4 @@
-// function performSearch(event) {
-//     event.preventDefault(); // Formun gönderilmesini engelle
 
-//     // Aranan metni al
-//     var searchText = document.getElementById('searchInput').value;
-
-//     // Arama sonuçlarını temizle
-//     document.getElementById('searchResults').innerHTML = '';
-
-//     // Burada arama işlemleri yapabilirsiniz. Örnek olarak, sadece metni ekrana yazdıralım:
-//     var resultsDiv = document.getElementById('searchResults');
-//     var resultText = document.createElement('div');
-//     resultText.textContent = "Arama Sonuçları: " + searchText;
-//     resultText.className = "dropdown-menu";
-//     resultsDiv.appendChild(resultText);
-// }
-
-// // Arama formunu seç ve gönderme olayını dinle
-// var searchForm = document.getElementById('searchForm');
-// searchForm.addEventListener('submit', performSearch);
-
-// // Tıklanabilir linkleri seç ve tıklama olayını dinle
-// var eminlerLink = document.getElementsByClassName('eminler-link');
-// for (var i = 0; i < eminlerLink.length; i++) {
-//     eminlerLink[i].addEventListener('click', function(event) {
-//         event.preventDefault(); // Linkin varsayılan tıklama davranışını engelle
-//         var linkText = this.textContent;
-//         alert("Tıklanan link: " + linkText); // Linkin yerine sayfaya yönlendirmeyi burada gerçekleştirebilirsiniz.
-//     });
-// }
-
-// function searchMenu() {
-//     const searchText = document.getElementById('searchInput');
-
-//     searchText.addEventListener("keyup", function(){
-//         let data = this.value.charAt(0).toUpperCase() + this.value.slice(1).toLowerCase();
-//         let link = document.querySelectorAll('.eminler-link');
-
-//         for (let i = 0; i < link.length; i++) {
-        
-//             if (link[i].innerHTML.toUpperCase().indexOf(data) > -1) {
-//                 // Eşleşme var
-//                 link[i].style.display = "";
-//             } else {
-//                 link[i].style.display = "none";
-//             }
-//             console.log(link[i].innerHTML);
-//         }
-//     });
-// }
-
-// searchMenu();
 
  function searchMenu() {
     const searchText = document.getElementById('searchInput');
@@ -91,3 +40,4 @@
     });
   }
   searchMenu();
+
