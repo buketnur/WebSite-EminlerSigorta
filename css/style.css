@@ -749,3 +749,33 @@ color:rgb(39, 29, 103);;
     border-radius: 0.25rem;
   }
 
+  .dropdown-search {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .dropdown-search:hover, .dropdown-search:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+
+.dropdown-search.active, .dropdown-search:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+.dropdown-search.disabled, .dropdown-search:disabled {
+  color: #adb5bd;
+  pointer-events: none;
+  background-color: transparent;
+}
